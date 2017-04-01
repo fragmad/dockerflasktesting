@@ -13,11 +13,11 @@ How To Do Stuff
 
 1. How to Build the Docker Image::
 
-   docker build -t myapp/hellos ./
+  docker build -t myapp/hellos ./
 
 2. How Run the Docker Image as a Dev Server::
 
-   docker run -d -p 80:5000 myapp/hellos
+  docker run -d -p 80:5000 myapp/hellos
 
 or I find this more useful since it expose the logs to the terminal.::
 
